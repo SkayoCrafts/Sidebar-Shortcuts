@@ -1,7 +1,7 @@
 {
     "name": "skayocrafts/sidebar-shortcuts",
     "description": "Add customisable Shortcut-Links to the Control Panel Sidebar",
-    "homepage": "https://skayocrafts/sidebar-shortcuts",
+    "homepage": "https://skayocrafts.github.io/sidebar-shortcuts",
     "type": "craft-plugin",
     "version": "1.0.0",
     "keywords": [
