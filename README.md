@@ -1,43 +1,45 @@
-# Sidebar Shortcuts plugin for Craft CMS 3.x
+<h1 align="center">
+  <br>
+  <a href="http://skayocrafts.github.io/sidebar-shortcuts"><img src="https://raw.githubusercontent.com/SkayoCrafts/Sidebar-Shortcuts/master/src/icon.svg?sanitize=true" alt="Sidebar Shortcuts Logo" width="150" height="150"></a>
+  <br>
+  Sidebar Shortcuts
+  <br>
+</h1>
 
-Add customisable Shortcut-Links to the Control Panel Sidebar
+<h4 align="center">Add Shortcuts to the Control Panel Sidebar</h4>
 
-![Screenshot](resources/img/plugin-logo.png)
+<br>
 
-## Requirements
+## Overview
 
-This plugin requires Craft CMS 3.0.0-beta.23 or later.
+This plugin adds the functionality to add simple shortcut-links to the sidebar in the control panel of Craft CMS.  
+This is useful for quick access to various plugins or other important stuff!
+For example if you have a a settings page from plugin that you visit often, like "cage/settings/appearance", you can add a Shortcut to the sidebar and get there with just one simple click, instead of three!  
 
-## Installation
+I originally made this plugin just for myself, as a little time-saver, but I found it so useful that I wanted to share it!
 
-To install the plugin, follow these instructions.
+## Documentation
 
-1. Open your terminal and go to your Craft project:
+### [Click here](https://skayocrafts.github.io/sidebar-shortcuts/docs)
 
-        cd /path/to/project
+## Screenshots
 
-2. Then tell Composer to load the plugin:
+![Screenshot 1](https://github.com/SkayoCrafts/Sidebar-Shortcuts/raw/master/resources/screenshots/screenshot1.png)
 
-        composer require SkayoCrafts/sidebar-shortcuts
+![Screenshot 2](https://github.com/SkayoCrafts/Sidebar-Shortcuts/raw/master/resources/screenshots/screenshot2.png)
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Sidebar Shortcuts.
-
-## Sidebar Shortcuts Overview
-
--Insert text here-
-
-## Configuring Sidebar Shortcuts
-
--Insert text here-
-
-## Using Sidebar Shortcuts
-
--Insert text here-
-
-## Sidebar Shortcuts Roadmap
+## Roadmap
 
 Some things to do, and ideas for potential features:
 
-* Release it
+- [ ] Set the position of the shortcuts (top, bottom, above settings, ...)
+- [ ] Define custom icons for the shortcuts (maybe?)
+- [ ] Show different shortcuts for different roles (maybe?)
+
+## License
+
+### [MIT](https://github.com/SkayoCrafts/Sidebar-Shortcuts/blob/master/LICENSE.md)
+
+---
 
 Brought to you by [Skayo](https://skayo.github.io)
