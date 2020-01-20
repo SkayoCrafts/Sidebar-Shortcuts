@@ -39,7 +39,7 @@ Then tell Craft to install the plugin:
 You can find the plugin settings in the Control Panel, at *Settings* → *Sidebar Shortcuts*.  
 Once there, you'll find a table where you can add your shortcuts.  
 Just enter the label on the left and the link on the right.  
-After configuration, you can find your shortcuts at the bottom of the sidebar!  
+After configuration, you will find your shortcuts at the bottom of the sidebar!  
 Just click on them to use them.
 
 ## Configuration File

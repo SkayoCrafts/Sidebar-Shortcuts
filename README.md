@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="http://skayocrafts.github.io/sidebar-shortcuts"><img src="https://raw.githubusercontent.com/SkayoCrafts/Sidebar-Shortcuts/master/src/icon.svg?sanitize=true" alt="Sidebar Shortcuts Logo" width="150" height="150"></a>
+  <a href="http://skayocrafts.github.io/sidebar-shortcuts"><img src="https://raw.githubusercontent.com/SkayoCrafts/Sidebar-Shortcuts/master/src/icon.svg?sanitize=true" alt="Sidebar Shortcuts Logo" width="100" height="130"></a>
   <br>
   Sidebar Shortcuts
   <br>
