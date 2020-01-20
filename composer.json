@@ -51,6 +51,7 @@
         "hasCpSettings": true,
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/SkayoCrafts/sidebar-shortcuts/master/CHANGELOG.md",
+        "documentationUrl": "https://skayocrafts.github.io/sidebar-shortcuts/docs",
         "class": "skayocrafts\\sidebarshortcuts\\SidebarShortcuts"
     }
 }
