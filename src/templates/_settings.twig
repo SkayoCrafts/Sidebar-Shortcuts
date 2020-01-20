@@ -1,0 +1,52 @@
+{% requireAdmin %}
+
+{% macro configWarning(setting) -%}
+	{% set setting = '<code>'~setting~'</code>' %}
+	{{ 'This is being overridden by the {setting} config setting in your {file} config file.'|t('sidebar-shortcuts', {
+		setting: setting,
+		file: 'sidebar-shortcuts.php'
+	})|raw }}
+{%- endmacro %}
+
+{% import '_includes/forms' as forms %}
+{% from _self import configWarning %}
+
+{{ forms.lightswitchField({
+	label: 'Enabled'|t('app'),
+	instructions: 'Whether this plugin should be enabled or not.'|t('sidebar-shortcuts'),
+	tip: 'This is useful for multi-environment scenarios!'|t('sidebar-shortcuts'),
+	id: 'enabled',
+	name: 'enabled',
+	on: settings.enabled,
+	first: true,
+	errors: settings.getErrors('enabled'),
+	disabled: 'enabled' in overrides,
+	warning: 'enabled' in overrides ? configWarning('enabled'),
+}) }}
+
+{{ forms.editableTableField({
+	label: 'Shortcuts'|t('sidebar-shortcuts'),
+	instructions: 'Define your sidebar shortcuts here.'|t('sidebar-shortcuts'),
+	id: 'shortcuts',
+	name: 'shortcuts',
+	cols: {
+		label: {
+			type: 'singleline',
+			heading: 'Label'|t('app'),
+			info: 'The Label/Name to use on the sidebar.'|t('sidebar-shortcuts'),
+			placeholder: 'Sidebar Shortcuts',
+		},
+        link: {
+			type: 'singleline',
+			heading: 'Link'|t('app'),
+			info: 'The Link/URL the sidebar shortcut should lead to. Can be a CP relative (utilities/db-backup), a site relative (/about) or an external (https://example.com) link.'|t('sidebar-shortcuts'),
+			placeholder: 'settings/plugins/sidebar-shortcuts',
+			code: true
+		}
+	},
+	rows: settings.shortcuts,
+	addRowLabel: 'Add a Shortcut'|t('sidebar-shortcuts'),
+	errors: settings.getErrors('shortcuts'),
+	static: 'shortcuts' in overrides,
+	warning: 'shortcuts' in overrides ? configWarning('shortcuts'),
+}) }}

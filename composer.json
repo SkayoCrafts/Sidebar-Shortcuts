@@ -1,0 +1,44 @@
+{
+    "name": "skayocrafts/sidebar-shortcuts",
+    "description": "Add customisable Shortcut-Links to the Control Panel Sidebar",
+    "homepage": "https://skayocrafts/sidebar-shortcuts",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "sidebar shortcuts"
+    ],
+    "support": {
+        "email": "contact@skayo.dev",
+        "docs": "https://skayocrafts.github.io/sidebar-shortcuts/docs",
+        "issues": "https://github.com/SkayoCrafts/Sidebar-Shortcuts/issues",
+        "source": "https://github.com/SkayoCrafts/Sidebar-Shortcuts"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Skayo",
+            "homepage": "https://skayo.github.io",
+            "email": "contact@skayo.dev"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "skayocrafts\\sidebarshortcuts\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Sidebar Shortcuts",
+        "handle": "sidebar-shortcuts",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/SkayoCrafts/sidebar-shortcuts/master/CHANGELOG.md",
+        "class": "skayocrafts\\sidebarshortcuts\\SidebarShortcuts"
+    }
+}

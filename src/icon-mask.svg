@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="Icon">
+    <g id="Link" transform="matrix(1 -5.05476E-08 -5.05476E-08 -1 54.00285 164.9975)">
+      <path d="M0 114.998C17.3991 39.2487 80.4983 25.5525 80.4983 25.5525L80.4983 0L137.997 50.8864L80.4983 102.221L80.4983 76.6574C80.4983 76.6689 37.0292 75.3464 0 114.998L0 114.998Z" transform="translate(-7.629395E-06 0)" id="Arrow" fill="#000000" stroke="none" />
+    </g>
+    <g id="Three-Dots" transform="translate(9 0)">
+      <path d="M50 25C50 11.1917 38.8083 0 25 0C11.1917 0 0 11.1917 0 25C0 38.8084 11.1917 50 25 50C38.8083 50 50 38.8084 50 25ZM25 75C38.8083 75 50 86.1917 50 100C50 113.808 38.8083 125 25 125C11.1917 125 0 113.808 0 100C0 86.1917 11.1917 75 25 75ZM50 175C50 161.192 38.8083 150 25 150C11.1917 150 0 161.192 0 175C0 188.808 11.1917 200 25 200C38.8083 200 50 188.808 50 175Z" id="Dots" fill="#000000" fill-rule="evenodd" stroke="none" />
+    </g>
+    <path d="M0 0L200 0L200 200L0 200L0 0Z" id="Rectangle" fill="none" stroke="none" />
+  </g>
+</svg>
